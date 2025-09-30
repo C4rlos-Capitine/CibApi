@@ -1,0 +1,166 @@
+2025-09-22 12:36:42.138 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-22 12:36:42.194 +02:00 [INF] Now listening on: http://[::]:5021
+2025-09-22 12:36:42.268 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 12:36:42.268 +02:00 [INF] Hosting environment: Development
+2025-09-22 12:36:42.268 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-09-22 12:36:44.136 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-09-22 12:36:44.292 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 161.1212ms
+2025-09-22 12:36:44.376 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 12:36:44.376 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-09-22 12:36:44.379 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 4.4929ms
+2025-09-22 12:36:44.412 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4828ms
+2025-09-22 12:36:44.457 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-09-22 12:36:44.467 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.558ms
+2025-09-22 12:40:23.983 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-22 12:40:24.037 +02:00 [INF] Now listening on: http://[::]:5021
+2025-09-22 12:40:24.124 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 12:40:24.124 +02:00 [INF] Hosting environment: Development
+2025-09-22 12:40:24.124 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-09-22 12:40:25.726 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-09-22 12:40:25.878 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 158.7626ms
+2025-09-22 12:40:25.900 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 12:40:25.902 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-09-22 12:40:25.905 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 6.1327ms
+2025-09-22 12:40:25.940 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.9459ms
+2025-09-22 12:40:25.984 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-09-22 12:40:25.993 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.492ms
+2025-09-22 12:47:22.287 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-22 12:47:22.339 +02:00 [INF] Now listening on: http://[::]:5021
+2025-09-22 12:47:22.442 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 12:47:22.442 +02:00 [INF] Hosting environment: Development
+2025-09-22 12:47:22.442 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-09-22 12:47:24.125 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-09-22 12:47:24.263 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 145.1351ms
+2025-09-22 12:47:24.492 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 12:47:24.492 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-09-22 12:47:24.496 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 4.178ms
+2025-09-22 12:47:24.529 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.3177ms
+2025-09-22 12:47:24.576 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-09-22 12:47:24.587 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.6353ms
+2025-09-22 12:47:32.296 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.102:5021/api/Artigo/sync - application/json; charset=utf-8 248
+2025-09-22 12:47:32.300 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-09-22 12:47:32.302 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.Sync (CibApi)'
+2025-09-22 12:47:32.318 +02:00 [INF] Route matched with {action = "Sync", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Artigo]) on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-09-22 12:47:32.660 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-22 12:47:32.666 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.Sync (CibApi) in 345.7846ms
+2025-09-22 12:47:32.666 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.Sync (CibApi)'
+2025-09-22 12:47:32.667 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.102:5021/api/Artigo/sync - 200 null application/json; charset=utf-8 370.2385ms
+2025-09-22 12:48:07.056 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.102:5021/api/Artigo/sync - application/json; charset=utf-8 248
+2025-09-22 12:48:07.057 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.Sync (CibApi)'
+2025-09-22 12:48:07.057 +02:00 [INF] Route matched with {action = "Sync", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Artigo]) on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-09-22 12:48:07.066 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-22 12:48:07.067 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.Sync (CibApi) in 9.5436ms
+2025-09-22 12:48:07.067 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.Sync (CibApi)'
+2025-09-22 12:48:07.067 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.102:5021/api/Artigo/sync - 200 null application/json; charset=utf-8 10.8866ms
+2025-09-22 12:50:28.740 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-22 12:50:28.788 +02:00 [INF] Now listening on: http://[::]:5021
+2025-09-22 12:50:28.858 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 12:50:28.858 +02:00 [INF] Hosting environment: Development
+2025-09-22 12:50:28.858 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-09-22 12:50:30.750 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-09-22 12:50:30.890 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 145.4845ms
+2025-09-22 12:50:30.987 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 12:50:30.989 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-09-22 12:50:30.990 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 4.8137ms
+2025-09-22 12:50:31.025 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.9731ms
+2025-09-22 12:50:31.084 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-09-22 12:50:31.096 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.4762ms
+2025-09-22 12:51:22.802 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.102:5021/api/Sala/sync - application/json; charset=utf-8 235
+2025-09-22 12:51:22.811 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-09-22 12:51:22.813 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SalaController.Sync (CibApi)'
+2025-09-22 12:51:22.829 +02:00 [INF] Route matched with {action = "Sync", controller = "Sala"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Sala]) on controller CibApi.Controllers.SalaController (CibApi).
+2025-09-22 12:51:22.861 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-09-22 12:51:22.877 +02:00 [INF] Executed action CibApi.Controllers.SalaController.Sync (CibApi) in 46.3509ms
+2025-09-22 12:51:22.877 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SalaController.Sync (CibApi)'
+2025-09-22 12:51:22.877 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.102:5021/api/Sala/sync - 400 null application/problem+json; charset=utf-8 75.023ms
+2025-09-22 12:51:25.345 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.102:5021/api/Sala/sync - application/json; charset=utf-8 235
+2025-09-22 12:51:25.346 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SalaController.Sync (CibApi)'
+2025-09-22 12:51:25.346 +02:00 [INF] Route matched with {action = "Sync", controller = "Sala"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Sala]) on controller CibApi.Controllers.SalaController (CibApi).
+2025-09-22 12:51:25.347 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-09-22 12:51:25.347 +02:00 [INF] Executed action CibApi.Controllers.SalaController.Sync (CibApi) in 1.4455ms
+2025-09-22 12:51:25.347 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SalaController.Sync (CibApi)'
+2025-09-22 12:51:25.347 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.102:5021/api/Sala/sync - 400 null application/problem+json; charset=utf-8 2.6914ms
+2025-09-22 12:53:29.265 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-22 12:53:29.314 +02:00 [INF] Now listening on: http://[::]:5021
+2025-09-22 12:53:29.391 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 12:53:29.392 +02:00 [INF] Hosting environment: Development
+2025-09-22 12:53:29.392 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-09-22 12:53:31.170 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-09-22 12:53:31.321 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 156.5173ms
+2025-09-22 12:53:31.341 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 12:53:31.341 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-09-22 12:53:31.343 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.5213ms
+2025-09-22 12:53:31.370 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.2545ms
+2025-09-22 12:53:31.412 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-09-22 12:53:31.426 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.1844ms
+2025-09-22 12:54:05.050 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.102:5021/api/Sala/sync - application/json; charset=utf-8 243
+2025-09-22 12:54:05.072 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-09-22 12:54:05.075 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SalaController.Sync (CibApi)'
+2025-09-22 12:54:05.094 +02:00 [INF] Route matched with {action = "Sync", controller = "Sala"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Sala]) on controller CibApi.Controllers.SalaController (CibApi).
+2025-09-22 12:54:05.362 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-22 12:54:05.368 +02:00 [INF] Executed action CibApi.Controllers.SalaController.Sync (CibApi) in 272.171ms
+2025-09-22 12:54:05.368 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SalaController.Sync (CibApi)'
+2025-09-22 12:54:05.368 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.102:5021/api/Sala/sync - 200 null application/json; charset=utf-8 319.0073ms
+2025-09-22 12:59:49.122 +02:00 [INF] Request starting HTTP/1.1 GET http://192.168.10.102:5021/api/Artigo - null null
+2025-09-22 12:59:49.133 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 12:59:49.135 +02:00 [INF] Route matched with {action = "GetAll", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-09-22 12:59:49.141 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Artigo, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-22 12:59:49.145 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.GetAll (CibApi) in 10.013ms
+2025-09-22 12:59:49.145 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 12:59:49.145 +02:00 [INF] Request finished HTTP/1.1 GET http://192.168.10.102:5021/api/Artigo - 200 null application/json; charset=utf-8 23.3016ms
+2025-09-22 12:59:58.521 +02:00 [INF] Request starting HTTP/1.1 GET http://192.168.10.102:5021/api/Sala - null null
+2025-09-22 12:59:58.524 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SalaController.GetAll (CibApi)'
+2025-09-22 12:59:58.525 +02:00 [INF] Route matched with {action = "GetAll", controller = "Sala"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.SalaController (CibApi).
+2025-09-22 12:59:58.526 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Sala, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-22 12:59:58.527 +02:00 [INF] Executed action CibApi.Controllers.SalaController.GetAll (CibApi) in 2.6323ms
+2025-09-22 12:59:58.527 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SalaController.GetAll (CibApi)'
+2025-09-22 12:59:58.527 +02:00 [INF] Request finished HTTP/1.1 GET http://192.168.10.102:5021/api/Sala - 200 null application/json; charset=utf-8 6.7412ms
+2025-09-22 13:11:48.156 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Artigo - null null
+2025-09-22 13:11:48.162 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 13:11:48.162 +02:00 [INF] Route matched with {action = "GetAll", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-09-22 13:11:48.166 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Artigo, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-22 13:11:48.166 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.GetAll (CibApi) in 4.3072ms
+2025-09-22 13:11:48.166 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 13:11:48.166 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Artigo - 200 null application/json; charset=utf-8 10.7434ms
+2025-09-22 13:13:34.348 +02:00 [INF] Request starting HTTP/1.1 GET http://192.168.10.102:5021/api/Artigo - null null
+2025-09-22 13:13:34.348 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 13:13:34.348 +02:00 [INF] Route matched with {action = "GetAll", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-09-22 13:13:34.350 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Artigo, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-22 13:13:34.350 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.GetAll (CibApi) in 1.419ms
+2025-09-22 13:13:34.350 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 13:13:34.350 +02:00 [INF] Request finished HTTP/1.1 GET http://192.168.10.102:5021/api/Artigo - 200 null application/json; charset=utf-8 1.9998ms
+2025-09-22 13:13:36.952 +02:00 [INF] Request starting HTTP/1.1 GET http://192.168.10.102:5021/api/Sala - null null
+2025-09-22 13:13:36.953 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SalaController.GetAll (CibApi)'
+2025-09-22 13:13:36.953 +02:00 [INF] Route matched with {action = "GetAll", controller = "Sala"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.SalaController (CibApi).
+2025-09-22 13:13:36.954 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Sala, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-22 13:13:36.954 +02:00 [INF] Executed action CibApi.Controllers.SalaController.GetAll (CibApi) in 1.1048ms
+2025-09-22 13:13:36.954 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SalaController.GetAll (CibApi)'
+2025-09-22 13:13:36.954 +02:00 [INF] Request finished HTTP/1.1 GET http://192.168.10.102:5021/api/Sala - 200 null application/json; charset=utf-8 1.6979ms
+2025-09-22 13:25:28.819 +02:00 [INF] Request starting HTTP/1.1 GET http://192.168.10.102:5021/api/Artigo - null null
+2025-09-22 13:25:28.819 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 13:25:28.819 +02:00 [INF] Route matched with {action = "GetAll", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-09-22 13:25:28.824 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Artigo, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-22 13:25:28.824 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.GetAll (CibApi) in 4.6004ms
+2025-09-22 13:25:28.824 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-09-22 13:25:28.824 +02:00 [INF] Request finished HTTP/1.1 GET http://192.168.10.102:5021/api/Artigo - 200 null application/json; charset=utf-8 5.3214ms
+2025-09-22 15:35:26.139 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-22 15:35:26.186 +02:00 [INF] Now listening on: http://[::]:5021
+2025-09-22 15:35:26.323 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 15:35:26.323 +02:00 [INF] Hosting environment: Development
+2025-09-22 15:35:26.323 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-09-22 15:35:27.932 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-09-22 15:35:28.080 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 153.2265ms
+2025-09-22 15:35:28.099 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-09-22 15:35:28.099 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 15:35:28.101 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.3078ms
+2025-09-22 15:35:28.122 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.6088ms
+2025-09-22 15:35:28.165 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-09-22 15:35:28.174 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.787ms
+2025-09-22 15:40:37.577 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.102:5021/api/Artigo/sync - application/json; charset=utf-8 496
+2025-09-22 15:40:37.585 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-09-22 15:40:37.587 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.Sync (CibApi)'
+2025-09-22 15:40:37.603 +02:00 [INF] Route matched with {action = "Sync", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Artigo]) on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-09-22 15:40:38.364 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-22 15:40:38.370 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.Sync (CibApi) in 765.0518ms
+2025-09-22 15:40:38.370 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.Sync (CibApi)'
+2025-09-22 15:40:38.370 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.102:5021/api/Artigo/sync - 200 null application/json; charset=utf-8 792.7628ms

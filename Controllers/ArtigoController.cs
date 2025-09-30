@@ -118,5 +118,97 @@ namespace CibApi.Controllers
 
             return Ok(new { message = $"{artigos.Count} artigos inseridos com sucesso" });
         }
+
+        // ✅ POST: api/artigo/sync
+        [HttpPost("sync")]
+        public IActionResult Sync([FromBody] List<Artigo> artigos)
+        {
+            try { 
+                if (artigos == null || artigos.Count == 0)
+                    return BadRequest(new { message = "Nenhum artigo recebido para sincronização" });
+
+                int inseridos = 0, atualizados = 0;
+
+                using (var connection = new SqlConnection(_connectionString))
+                {
+                    connection.Open();
+
+                    foreach (var artigo in artigos)
+                    {
+                        // 🔹 Verifica se já existe pelo código de barras
+                        var checkQuery = "SELECT COUNT(*) FROM Artigo WHERE codigo_barra = @codigo_barra";
+
+                        using (var checkCmd = new SqlCommand(checkQuery, connection))
+                        {
+                            checkCmd.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
+
+                            int existe = (int)checkCmd.ExecuteScalar();
+
+                            if (existe > 0)
+                            {
+                                // 🔹 Atualizar
+                                var updateQuery = @"UPDATE Artigo
+                                                    SET id_sala = @id_sala,
+                                                        num_artigo = @num_artigo,
+                                                        nome_artigo = @nome_artigo,
+                                                        data_registo = @data_registo,
+                                                        data_update = @data_update,
+                                                        isSynced = 1,
+                                                        lastUpdated = @lastUpdated
+                                                    WHERE codigo_barra = @codigo_barra";
+
+                                using (var updateCmd = new SqlCommand(updateQuery, connection))
+                                {
+                                    updateCmd.Parameters.AddWithValue("@id_sala", artigo.Id_Sala);
+                                    updateCmd.Parameters.AddWithValue("@num_artigo", artigo.Num_Artigo);
+                                    updateCmd.Parameters.AddWithValue("@nome_artigo", artigo.Nome_Artigo);
+                                    updateCmd.Parameters.AddWithValue("@data_registo", artigo.Data_Registo);
+                                    updateCmd.Parameters.AddWithValue("@data_update", artigo.Data_Update);
+                                    updateCmd.Parameters.AddWithValue("@lastUpdated", DateTime.Now);
+                                    updateCmd.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
+
+                                    updateCmd.ExecuteNonQuery();
+                                    atualizados++;
+                                }
+                            }
+                            else
+                            {
+                                // 🔹 Inserir
+                                var insertQuery = @"INSERT INTO Artigo
+                                                    (id_sala, codigo_barra, num_artigo, nome_artigo, data_registo, data_update, isSynced, lastUpdated)
+                                                    VALUES (@id_sala, @codigo_barra, @num_artigo, @nome_artigo, @data_registo, @data_update, 1, @lastUpdated)";
+
+                                using (var insertCmd = new SqlCommand(insertQuery, connection))
+                                {
+                                    insertCmd.Parameters.AddWithValue("@id_sala", artigo.Id_Sala);
+                                    insertCmd.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
+                                    insertCmd.Parameters.AddWithValue("@num_artigo", artigo.Num_Artigo);
+                                    insertCmd.Parameters.AddWithValue("@nome_artigo", artigo.Nome_Artigo);
+                                    insertCmd.Parameters.AddWithValue("@data_registo", artigo.Data_Registo);
+                                    insertCmd.Parameters.AddWithValue("@data_update", artigo.Data_Update);
+                                    insertCmd.Parameters.AddWithValue("@lastUpdated", DateTime.Now);
+
+                                    insertCmd.ExecuteNonQuery();
+                                    inseridos++;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                return Ok(new
+                {
+                    message = "Sincronização concluída",
+                    inseridos,
+                    atualizados,
+                    total = artigos.Count
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation("\n\nExcepção geral " + ex.Message);
+                return StatusCode(500, new { message = "Erro interno no servidor", erro = ex.Message });
+            }
+        }
     }
 }

@@ -42,6 +42,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CibApi.Controllers.ArtigoController",
+    "Method": "Sync",
+    "RelativePath": "api/Artigo/sync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artigos",
+        "Type": "System.Collections.Generic.List\u00601[[CibApi.Models.Artigo, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CibApi.Controllers.SalaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Sala",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CibApi.Controllers.SalaController",
+    "Method": "Create",
+    "RelativePath": "api/Sala",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sala",
+        "Type": "CibApi.Models.Sala",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CibApi.Controllers.SalaController",
+    "Method": "CreateBatch",
+    "RelativePath": "api/Sala/lote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salas",
+        "Type": "System.Collections.Generic.List\u00601[[CibApi.Models.Sala, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CibApi.Controllers.SalaController",
+    "Method": "Sync",
+    "RelativePath": "api/Sala/sync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "salas",
+        "Type": "System.Collections.Generic.List\u00601[[CibApi.Models.Sala, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CibApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
