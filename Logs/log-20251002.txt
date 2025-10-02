@@ -1,0 +1,206 @@
+2025-10-02 08:02:38.914 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-02 08:02:38.971 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-02 08:02:39.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 08:02:39.064 +02:00 [INF] Hosting environment: Development
+2025-10-02 08:02:39.064 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-10-02 08:02:40.850 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-02 08:02:41.032 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 190.5384ms
+2025-10-02 08:02:41.048 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-02 08:02:41.048 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-02 08:02:41.050 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.2985ms
+2025-10-02 08:02:41.080 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.5371ms
+2025-10-02 08:02:41.218 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-02 08:02:41.227 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7477ms
+2025-10-02 08:02:45.161 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Artigo - null null
+2025-10-02 08:02:45.167 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 08:02:45.169 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-10-02 08:02:45.189 +02:00 [INF] Route matched with {action = "GetAll", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-10-02 08:03:11.231 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.GetAll (CibApi) in 26039.8557ms
+2025-10-02 08:03:11.232 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-10-02 08:03:11.234 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CIBBASE0" requested by the login. The login failed.
+Login failed for user 'QUIDGEST'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at CibApi.Controllers.ArtigoController.GetAll() in D:\dot net pro\CibApi\CibApi\Controllers\ArtigoController.cs:line 30
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:dec9b545-16b3-405a-8dda-fc61009533ab
+Error Number:4060,State:1,Class:11
+2025-10-02 08:03:11.267 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Artigo - 500 null text/plain; charset=utf-8 26106.1947ms
+2025-10-02 08:04:53.494 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-02 08:04:53.544 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-02 08:04:53.616 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 08:04:53.616 +02:00 [INF] Hosting environment: Development
+2025-10-02 08:04:53.616 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-10-02 08:04:55.214 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-02 08:04:55.352 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 144.6509ms
+2025-10-02 08:04:55.372 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-02 08:04:55.372 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-02 08:04:55.374 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 2.4873ms
+2025-10-02 08:04:55.394 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.6299ms
+2025-10-02 08:04:55.532 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-02 08:04:55.540 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.7502ms
+2025-10-02 08:05:02.183 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Artigo - null null
+2025-10-02 08:05:02.187 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 08:05:02.190 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-10-02 08:05:02.203 +02:00 [INF] Route matched with {action = "GetAll", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-10-02 08:05:21.577 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-02 08:05:21.627 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-02 08:05:21.778 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 08:05:21.778 +02:00 [INF] Hosting environment: Development
+2025-10-02 08:05:21.778 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-10-02 08:05:23.370 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-02 08:05:23.512 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 149.3577ms
+2025-10-02 08:05:23.533 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-02 08:05:23.535 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-02 08:05:23.536 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.0609ms
+2025-10-02 08:05:23.560 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.5226ms
+2025-10-02 08:05:23.607 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-02 08:05:23.614 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.7303ms
+2025-10-02 08:05:27.094 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Artigo - null null
+2025-10-02 08:05:27.101 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 08:05:27.103 +02:00 [INF] Executing endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-10-02 08:05:27.116 +02:00 [INF] Route matched with {action = "GetAll", controller = "Artigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.ArtigoController (CibApi).
+2025-10-02 08:05:43.201 +02:00 [INF] Executed action CibApi.Controllers.ArtigoController.GetAll (CibApi) in 16082.5694ms
+2025-10-02 08:05:43.202 +02:00 [INF] Executed endpoint 'CibApi.Controllers.ArtigoController.GetAll (CibApi)'
+2025-10-02 08:05:43.203 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed. The login is from an untrusted domain and cannot be used with Integrated authentication.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at CibApi.Controllers.ArtigoController.GetAll() in D:\dot net pro\CibApi\CibApi\Controllers\ArtigoController.cs:line 30
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:b7c4588c-2d24-415e-b01a-4911783e889d
+Error Number:18452,State:1,Class:14
+2025-10-02 08:05:43.225 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Artigo - 500 null text/plain; charset=utf-8 16130.9831ms
+2025-10-02 08:31:41.931 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-02 08:31:41.978 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-02 08:31:42.049 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 08:31:42.049 +02:00 [INF] Hosting environment: Development
+2025-10-02 08:31:42.049 +02:00 [INF] Content root path: D:\dot net pro\CibApi\CibApi
+2025-10-02 08:31:43.850 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-02 08:31:44.004 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 159.6105ms
+2025-10-02 08:31:44.024 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-02 08:31:44.025 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-02 08:31:44.027 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 4.3369ms
+2025-10-02 08:31:44.052 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.1351ms
+2025-10-02 08:31:44.103 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-02 08:31:44.114 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.6785ms
+2025-10-02 08:31:54.696 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Sala - null null
+2025-10-02 08:31:54.700 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 08:31:54.703 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SalaController.GetAll (CibApi)'
+2025-10-02 08:31:54.718 +02:00 [INF] Route matched with {action = "GetAll", controller = "Sala"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.SalaController (CibApi).
+2025-10-02 08:32:16.801 +02:00 [INF] Executed action CibApi.Controllers.SalaController.GetAll (CibApi) in 22080.2341ms
+2025-10-02 08:32:16.801 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SalaController.GetAll (CibApi)'
+2025-10-02 08:32:16.802 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "CIBBASE0" requested by the login. The login failed.
+Login failed for user 'QUIDGEST'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at CibApi.Controllers.SalaController.GetAll() in D:\dot net pro\CibApi\CibApi\Controllers\SalaController.cs:line 28
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:b207292a-2e3c-4fd4-aec9-415589163fd4
+Error Number:4060,State:1,Class:11
+2025-10-02 08:32:16.831 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Sala - 500 null text/plain; charset=utf-8 22135.3872ms
