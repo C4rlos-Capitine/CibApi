@@ -95,9 +95,81 @@
           "content": {
             "application/json": {
               "schema": {
+                "$ref": "#/components/schemas/ArtigoSyncRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ArtigoSyncRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ArtigoSyncRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventario": {
+      "get": {
+        "tags": [
+          "Inventario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Inventario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Inventario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventario/lote": {
+      "post": {
+        "tags": [
+          "Inventario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Artigo"
+                  "$ref": "#/components/schemas/Inventario"
                 }
               }
             },
@@ -105,7 +177,7 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Artigo"
+                  "$ref": "#/components/schemas/Inventario"
                 }
               }
             },
@@ -113,7 +185,172 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Artigo"
+                  "$ref": "#/components/schemas/Inventario"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Inventario/sync": {
+      "post": {
+        "tags": [
+          "Inventario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InventarioSyncRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InventarioSyncRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InventarioSyncRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/InventarioArtigo/byInventario/{id}": {
+      "get": {
+        "tags": [
+          "InventarioArtigo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/InventarioArtigo": {
+      "post": {
+        "tags": [
+          "InventarioArtigo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InventarioArtigo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InventarioArtigo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InventarioArtigo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/InventarioArtigo/lote": {
+      "post": {
+        "tags": [
+          "InventarioArtigo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/InventarioArtigo"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/InventarioArtigo"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/InventarioArtigo"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/InventarioArtigo/sync": {
+      "post": {
+        "tags": [
+          "InventarioArtigo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/InventarioArtigo"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/InventarioArtigo"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/InventarioArtigo"
                 }
               }
             }
@@ -216,26 +453,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Sala"
-                }
+                "$ref": "#/components/schemas/SalaSyncRequest"
               }
             },
             "text/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Sala"
-                }
+                "$ref": "#/components/schemas/SalaSyncRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Sala"
-                }
+                "$ref": "#/components/schemas/SalaSyncRequest"
               }
             }
           }
@@ -292,33 +520,147 @@
       "Artigo": {
         "type": "object",
         "properties": {
-          "id_Artigo": {
-            "type": "integer",
-            "format": "int32"
+          "id_artigo": {
+            "type": "string",
+            "format": "uuid"
           },
-          "id_Sala": {
-            "type": "integer",
-            "format": "int32"
+          "id_sala": {
+            "type": "string",
+            "format": "uuid"
           },
-          "codigo_Barra": {
+          "codigo_barra": {
             "type": "string",
             "nullable": true
           },
-          "num_Artigo": {
+          "num_artigo": {
             "type": "string",
             "nullable": true
           },
-          "nome_Artigo": {
+          "nome_artigo": {
             "type": "string",
             "nullable": true
           },
-          "data_Registo": {
+          "data_registo": {
             "type": "string",
             "format": "date-time"
           },
-          "data_Update": {
+          "data_update": {
             "type": "string",
             "format": "date-time"
+          },
+          "isSynced": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lastUpdated": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ArtigoSyncRequest": {
+        "type": "object",
+        "properties": {
+          "artigos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Artigo"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Inventario": {
+        "type": "object",
+        "properties": {
+          "id_inventario": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "unique_id_sala": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nome_inventario": {
+            "type": "string",
+            "nullable": true
+          },
+          "data_inicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lastUpdated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isSynced": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InventarioArtigo": {
+        "required": [
+          "id_inventario"
+        ],
+        "type": "object",
+        "properties": {
+          "id_inventario_artigo": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "id_inventario": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "unique_id_sala": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "id_artigo": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "lastUpdated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "isSynced": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InventarioSyncRequest": {
+        "type": "object",
+        "properties": {
+          "inventarios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Inventario"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Sala": {
+        "type": "object",
+        "properties": {
+          "id_sala": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "codigo_barra": {
+            "type": "string",
+            "nullable": true
+          },
+          "num_sala": {
+            "type": "string",
+            "nullable": true
           },
           "isSynced": {
             "type": "boolean"
@@ -330,27 +672,15 @@
         },
         "additionalProperties": false
       },
-      "Sala": {
+      "SalaSyncRequest": {
         "type": "object",
         "properties": {
-          "id_Sala": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "codigo_Barra": {
-            "type": "string",
+          "salas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sala"
+            },
             "nullable": true
-          },
-          "num_Sala": {
-            "type": "string",
-            "nullable": true
-          },
-          "isSynced": {
-            "type": "boolean"
-          },
-          "lastUpdated": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false

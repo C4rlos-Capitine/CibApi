@@ -1,0 +1,386 @@
+2025-10-06 06:58:19.071 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 06:58:19.173 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 06:58:19.290 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 06:58:19.291 +02:00 [INF] Hosting environment: Development
+2025-10-06 06:58:19.291 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 06:58:24.746 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 06:58:25.470 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 739.9782ms
+2025-10-06 06:58:25.532 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 06:58:25.532 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 06:58:25.536 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 18.3691ms
+2025-10-06 06:58:25.664 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 145.724ms
+2025-10-06 06:58:25.732 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 06:58:25.763 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.5828ms
+2025-10-06 07:08:36.402 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 176
+2025-10-06 07:08:36.541 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 07:08:36.565 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 07:08:36.681 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 07:08:36.815 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 07:08:36.851 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 167.1583ms
+2025-10-06 07:08:36.851 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 07:08:36.852 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 466.2649ms
+2025-10-06 07:13:09.895 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 07:13:10.415 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 07:13:10.781 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 07:13:10.781 +02:00 [INF] Hosting environment: Development
+2025-10-06 07:13:10.781 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 07:13:11.136 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 07:13:11.902 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 798.5162ms
+2025-10-06 07:13:11.906 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 07:13:11.906 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 07:13:11.911 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 6.6191ms
+2025-10-06 07:13:11.977 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.0897ms
+2025-10-06 07:13:12.120 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 07:13:12.140 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.4468ms
+2025-10-06 07:21:28.145 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 07:21:28.243 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 07:21:28.711 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 07:21:28.711 +02:00 [INF] Hosting environment: Development
+2025-10-06 07:21:28.711 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 07:21:29.243 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 07:21:29.848 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 631.4348ms
+2025-10-06 07:21:29.891 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 07:21:29.898 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 7.6651ms
+2025-10-06 07:21:29.942 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 07:21:30.144 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 202.5635ms
+2025-10-06 07:21:30.261 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 07:21:30.309 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.3209ms
+2025-10-06 07:23:36.198 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 160
+2025-10-06 07:23:36.317 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 07:23:36.336 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 07:23:36.455 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 07:23:36.590 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 07:23:36.637 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 179.1522ms
+2025-10-06 07:23:36.638 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 07:23:36.639 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 452.4356ms
+2025-10-06 11:17:16.071 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 11:17:16.174 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 11:17:16.423 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 11:17:16.423 +02:00 [INF] Hosting environment: Development
+2025-10-06 11:17:16.423 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 11:17:19.004 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 11:17:19.461 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 467.8117ms
+2025-10-06 11:17:19.475 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 11:17:19.479 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 5.517ms
+2025-10-06 11:17:19.503 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 11:17:19.765 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 261.956ms
+2025-10-06 11:17:19.840 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 11:17:19.875 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.823ms
+2025-10-06 12:44:18.417 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 12:44:18.526 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 12:44:18.758 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 12:44:18.758 +02:00 [INF] Hosting environment: Development
+2025-10-06 12:44:18.759 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 12:44:19.650 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 12:44:20.340 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 704.4206ms
+2025-10-06 12:44:20.366 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 12:44:20.366 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 12:44:20.376 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 10.213ms
+2025-10-06 12:44:20.470 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.614ms
+2025-10-06 12:44:20.543 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 12:44:20.607 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.7693ms
+2025-10-06 12:54:57.760 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5021/api/Inventario - application/json 262
+2025-10-06 12:54:57.778 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 12:54:57.786 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Create (CibApi)'
+2025-10-06 12:54:57.856 +02:00 [INF] Route matched with {action = "Create", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(CibApi.Models.Inventario) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 12:55:10.925 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Create (CibApi) in 13065.0168ms
+2025-10-06 12:55:10.928 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Create (CibApi)'
+2025-10-06 12:55:10.932 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@id_sala".
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CibApi.Controllers.InventarioController.Create(Inventario inventario) in C:\Users\User\source\repos\CibApi\Controllers\InventarioController.cs:line 75
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:cfae3671-ad03-4093-bf02-07ddada48703
+Error Number:137,State:2,Class:15
+2025-10-06 12:55:11.036 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5021/api/Inventario - 500 null text/plain; charset=utf-8 13276.5881ms
+2025-10-06 12:58:37.179 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 12:58:37.276 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 12:58:37.383 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 12:58:37.383 +02:00 [INF] Hosting environment: Development
+2025-10-06 12:58:37.384 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 12:58:38.254 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 12:58:39.001 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 763.1536ms
+2025-10-06 12:58:39.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 12:58:39.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 12:58:39.107 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 83.0718ms
+2025-10-06 12:58:39.276 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 249.0434ms
+2025-10-06 12:58:39.372 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 12:58:39.409 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.5056ms
+2025-10-06 12:58:52.654 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Inventario - null null
+2025-10-06 12:58:52.661 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 12:58:52.665 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 12:58:52.699 +02:00 [INF] Route matched with {action = "GetAll", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 12:58:53.282 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Inventario, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-06 12:58:53.305 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.GetAll (CibApi) in 602.5284ms
+2025-10-06 12:58:53.306 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 12:58:53.306 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Inventario - 200 null application/json; charset=utf-8 652.1025ms
+2025-10-06 12:59:03.940 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5021/api/Inventario - application/json 262
+2025-10-06 12:59:03.942 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Create (CibApi)'
+2025-10-06 12:59:03.955 +02:00 [INF] Route matched with {action = "Create", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(CibApi.Models.Inventario) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 12:59:04.071 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-06 12:59:04.074 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Create (CibApi) in 119.028ms
+2025-10-06 12:59:04.074 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Create (CibApi)'
+2025-10-06 12:59:04.075 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5021/api/Inventario - 200 null application/json; charset=utf-8 134.8064ms
+2025-10-06 12:59:54.540 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5021/api/Inventario/sync - application/json 282
+2025-10-06 12:59:54.542 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 12:59:54.545 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 12:59:54.586 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-06 12:59:54.589 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 43.1076ms
+2025-10-06 12:59:54.589 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 12:59:54.589 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5021/api/Inventario/sync - 200 null application/json; charset=utf-8 48.6639ms
+2025-10-06 13:08:21.554 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 13:08:21.778 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 13:08:22.257 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 13:08:22.257 +02:00 [INF] Hosting environment: Development
+2025-10-06 13:08:22.257 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 13:08:23.635 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 13:08:24.965 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 1380.8795ms
+2025-10-06 13:08:25.007 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 13:08:25.035 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 13:08:25.041 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 35.3692ms
+2025-10-06 13:08:25.296 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 260.387ms
+2025-10-06 13:08:25.399 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 13:08:25.464 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.5115ms
+2025-10-06 13:08:48.223 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 217
+2025-10-06 13:08:48.241 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 13:08:48.250 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 13:08:48.314 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 13:08:48.441 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 13:08:48.493 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 173.3905ms
+2025-10-06 13:08:48.493 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 13:08:48.493 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 270.5922ms
+2025-10-06 14:21:12.794 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 14:21:13.031 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 14:21:13.335 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 14:21:13.336 +02:00 [INF] Hosting environment: Development
+2025-10-06 14:21:13.336 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 14:21:14.584 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 14:21:15.330 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 761.1942ms
+2025-10-06 14:21:15.355 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 14:21:15.386 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 14:21:15.409 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 29.254ms
+2025-10-06 14:21:15.543 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 189.8058ms
+2025-10-06 14:21:15.703 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 14:21:15.781 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.3466ms
+2025-10-06 14:21:20.489 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 205
+2025-10-06 14:21:20.507 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 14:21:20.519 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:21:20.607 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 14:21:20.771 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 14:21:20.840 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 225.83ms
+2025-10-06 14:21:20.840 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:21:20.840 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 351.1431ms
+2025-10-06 14:23:10.041 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 14:23:10.157 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 14:23:10.323 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 14:23:10.323 +02:00 [INF] Hosting environment: Development
+2025-10-06 14:23:10.323 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 14:23:12.231 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 14:23:13.072 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 911.8943ms
+2025-10-06 14:23:13.085 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 14:23:13.088 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 14:23:13.096 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 7.7671ms
+2025-10-06 14:23:13.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.7897ms
+2025-10-06 14:23:13.208 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 14:23:13.230 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.4882ms
+2025-10-06 14:23:17.865 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 267
+2025-10-06 14:23:17.871 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 14:23:17.874 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:23:17.912 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 14:23:18.126 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 14:23:18.161 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 246.5783ms
+2025-10-06 14:23:18.162 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:23:18.164 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 299.1929ms
+2025-10-06 14:24:28.515 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 242
+2025-10-06 14:24:28.517 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:24:28.517 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 14:24:28.528 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 14:24:28.529 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 11.8311ms
+2025-10-06 14:24:28.529 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:24:28.529 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 14.8192ms
+2025-10-06 14:28:20.812 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 14:28:20.956 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 14:28:21.135 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 14:28:21.136 +02:00 [INF] Hosting environment: Development
+2025-10-06 14:28:21.136 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 14:28:21.819 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 14:28:21.818 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 480
+2025-10-06 14:28:21.971 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 14:28:21.986 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:28:22.095 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 14:28:22.289 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 14:28:22.340 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 238.8614ms
+2025-10-06 14:28:22.341 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:28:22.347 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 562.7549ms
+2025-10-06 14:28:22.357 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 551.0496ms
+2025-10-06 14:28:22.369 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 14:28:22.371 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 14:28:22.386 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 17.3532ms
+2025-10-06 14:28:22.595 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 224.4015ms
+2025-10-06 14:28:22.693 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 14:28:22.758 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.6904ms
+2025-10-06 14:29:40.741 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Inventario - null null
+2025-10-06 14:29:40.744 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 14:29:40.750 +02:00 [INF] Route matched with {action = "GetAll", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 14:29:41.485 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Inventario, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-06 14:29:41.493 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.GetAll (CibApi) in 743.1175ms
+2025-10-06 14:29:41.493 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 14:29:41.493 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Inventario - 200 null application/json; charset=utf-8 753.3804ms
+2025-10-06 14:33:03.983 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 414
+2025-10-06 14:33:04.022 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:33:04.046 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 14:33:04.122 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 14:33:04.128 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 79.7535ms
+2025-10-06 14:33:04.128 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:33:04.129 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 159.484ms
+2025-10-06 14:42:12.484 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 14:42:12.612 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 14:42:12.974 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 14:42:12.974 +02:00 [INF] Hosting environment: Development
+2025-10-06 14:42:12.975 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 14:42:16.694 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 14:42:17.826 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 1165.4391ms
+2025-10-06 14:42:17.924 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 14:42:17.934 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 10.8639ms
+2025-10-06 14:42:17.982 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 14:42:18.637 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 655.4892ms
+2025-10-06 14:42:19.760 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 14:42:19.819 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.4562ms
+2025-10-06 14:48:53.208 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 430
+2025-10-06 14:48:53.456 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 14:48:53.488 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:48:53.703 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 14:48:53.894 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 14:48:53.996 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 288.1349ms
+2025-10-06 14:48:53.997 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 14:48:53.998 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 806.8037ms
+2025-10-06 15:02:29.943 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 15:02:30.150 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 15:02:31.011 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 15:02:31.012 +02:00 [INF] Hosting environment: Development
+2025-10-06 15:02:31.012 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 15:02:32.036 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 15:02:33.326 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 1320.1779ms
+2025-10-06 15:02:33.372 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 15:02:33.382 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 12.3525ms
+2025-10-06 15:02:33.457 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 15:02:33.549 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.1586ms
+2025-10-06 15:02:33.795 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 15:02:33.840 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.1929ms
+2025-10-06 15:03:42.535 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 504
+2025-10-06 15:03:42.535 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 504
+2025-10-06 15:03:42.694 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 15:03:42.716 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 15:03:42.717 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 15:03:42.877 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 15:03:42.877 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(System.Collections.Generic.List`1[CibApi.Models.Inventario]) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 15:03:43.052 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 15:03:43.052 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-06 15:03:43.128 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 243.6519ms
+2025-10-06 15:03:43.129 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 243.7268ms
+2025-10-06 15:03:43.129 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 15:03:43.129 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 15:03:43.130 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 603.1183ms
+2025-10-06 15:03:43.130 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 400 null application/problem+json; charset=utf-8 603.1261ms
+2025-10-06 15:14:58.972 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 15:14:59.167 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 15:14:59.736 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 15:14:59.737 +02:00 [INF] Hosting environment: Development
+2025-10-06 15:14:59.737 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 15:15:02.684 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 15:15:04.198 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 1872.2663ms
+2025-10-06 15:15:04.209 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 15:15:04.209 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 15:15:04.222 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 14.6586ms
+2025-10-06 15:15:04.712 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 503.4789ms
+2025-10-06 15:15:04.824 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 15:15:04.966 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.763ms
+2025-10-06 15:16:16.242 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 504
+2025-10-06 15:16:16.289 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 15:16:16.708 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 15:16:27.232 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(CibApi.Models.InventarioSyncRequest) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 15:16:28.758 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-06 15:16:28.777 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 1538.9958ms
+2025-10-06 15:16:28.777 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 15:16:28.778 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 200 null application/json; charset=utf-8 12537.9759ms
+2025-10-06 15:16:55.753 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Inventario - null null
+2025-10-06 15:16:56.197 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 15:16:56.244 +02:00 [INF] Route matched with {action = "GetAll", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 15:16:57.238 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Inventario, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-06 15:16:57.451 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.GetAll (CibApi) in 1206.6064ms
+2025-10-06 15:16:57.451 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 15:16:57.452 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Inventario - 200 null application/json; charset=utf-8 1699.1576ms
+2025-10-06 16:02:26.601 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 16:02:26.781 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 16:02:27.104 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 16:02:27.104 +02:00 [INF] Hosting environment: Development
+2025-10-06 16:02:27.104 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 16:02:29.459 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - application/json; charset=utf-8 259
+2025-10-06 16:02:29.666 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-06 16:02:29.680 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 16:02:29.829 +02:00 [INF] Route matched with {action = "Sync", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Sync(CibApi.Models.InventarioSyncRequest) on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 16:02:29.942 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 16:02:31.531 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 1588.1ms
+2025-10-06 16:02:31.731 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 16:02:31.732 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 16:02:31.738 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 6.3591ms
+2025-10-06 16:02:31.983 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 252.1365ms
+2025-10-06 16:02:32.949 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 16:02:33.239 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 290.489ms
+2025-10-06 16:02:35.889 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-06 16:02:35.928 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.Sync (CibApi) in 6090.5646ms
+2025-10-06 16:02:35.929 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.Sync (CibApi)'
+2025-10-06 16:02:35.929 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.107:5021/api/Inventario/sync - 200 null application/json; charset=utf-8 6491.628ms
+2025-10-06 16:05:27.796 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/Inventario - null null
+2025-10-06 16:05:27.829 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 16:05:27.894 +02:00 [INF] Route matched with {action = "GetAll", controller = "Inventario"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller CibApi.Controllers.InventarioController (CibApi).
+2025-10-06 16:05:27.994 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.Inventario, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-06 16:05:28.027 +02:00 [INF] Executed action CibApi.Controllers.InventarioController.GetAll (CibApi) in 133.2775ms
+2025-10-06 16:05:28.028 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioController.GetAll (CibApi)'
+2025-10-06 16:05:28.028 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/Inventario - 200 null application/json; charset=utf-8 235.7814ms
+2025-10-06 16:05:52.967 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/api/InventarioArtigo/byInventario/84b3c57f-9d2a-46de-b4ef-b7c4da5e7be1 - null null
+2025-10-06 16:05:52.972 +02:00 [INF] Executing endpoint 'CibApi.Controllers.InventarioArtigoController.GetByInventario (CibApi)'
+2025-10-06 16:05:52.989 +02:00 [INF] Route matched with {action = "GetByInventario", controller = "InventarioArtigo"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByInventario(System.Guid) on controller CibApi.Controllers.InventarioArtigoController (CibApi).
+2025-10-06 16:05:53.035 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CibApi.Models.InventarioArtigo, CibApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-06 16:05:53.038 +02:00 [INF] Executed action CibApi.Controllers.InventarioArtigoController.GetByInventario (CibApi) in 48.6889ms
+2025-10-06 16:05:53.038 +02:00 [INF] Executed endpoint 'CibApi.Controllers.InventarioArtigoController.GetByInventario (CibApi)'
+2025-10-06 16:05:53.038 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/api/InventarioArtigo/byInventario/84b3c57f-9d2a-46de-b4ef-b7c4da5e7be1 - 200 null application/json; charset=utf-8 71.1606ms
+2025-10-06 16:13:08.004 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-06 16:13:08.163 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-06 16:13:09.511 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 16:13:09.512 +02:00 [INF] Hosting environment: Development
+2025-10-06 16:13:09.512 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-06 16:13:10.363 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-06 16:13:11.832 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 1491.9111ms
+2025-10-06 16:13:11.872 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 16:13:11.893 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 23.5318ms
+2025-10-06 16:13:11.940 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-06 16:13:12.477 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 537.3083ms
+2025-10-06 16:13:12.642 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-06 16:13:12.807 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.8621ms

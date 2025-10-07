@@ -37,14 +37,14 @@ namespace CibApi.Controllers
                         {
                             artigos.Add(new Artigo
                             {
-                                Id_Artigo = reader.GetInt32(reader.GetOrdinal("id_artigo")),
-                                Id_Sala = reader.GetInt32(reader.GetOrdinal("id_sala")),
-                                Codigo_Barra = reader.GetString(reader.GetOrdinal("codigo_barra")),
-                                Num_Artigo = reader.GetString(reader.GetOrdinal("num_artigo")),
-                                Nome_Artigo = reader.GetString(reader.GetOrdinal("nome_artigo")),
-                                Data_Registo = reader.GetDateTime(reader.GetOrdinal("data_registo")),
-                                Data_Update = reader.GetDateTime(reader.GetOrdinal("data_update")),
-                                IsSynced = reader.GetBoolean(reader.GetOrdinal("isSynced")),
+                                id_artigo = reader.GetGuid(reader.GetOrdinal("id_artigo")),
+                                id_sala = reader.GetGuid(reader.GetOrdinal("id_sala")),
+                                codigo_barra = reader.GetString(reader.GetOrdinal("codigo_barra")),
+                                num_artigo = reader.GetString(reader.GetOrdinal("num_artigo")),
+                                nome_artigo = reader.GetString(reader.GetOrdinal("nome_artigo")),
+                                data_registo = reader.GetDateTime(reader.GetOrdinal("data_registo")),
+                                data_update = reader.GetDateTime(reader.GetOrdinal("data_update")),
+                                IsSynced = reader.GetBoolean(reader.GetOrdinal("isSynced")) ? 1 : 0,
                                 LastUpdated = reader.GetDateTime(reader.GetOrdinal("lastUpdated"))
                             });
                         }
@@ -69,12 +69,12 @@ namespace CibApi.Controllers
 
                 using (var command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@id_sala", artigo.Id_Sala);
-                    command.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
-                    command.Parameters.AddWithValue("@num_artigo", artigo.Num_Artigo);
-                    command.Parameters.AddWithValue("@nome_artigo", artigo.Nome_Artigo);
-                    command.Parameters.AddWithValue("@data_registo", artigo.Data_Registo);
-                    command.Parameters.AddWithValue("@data_update", artigo.Data_Update);
+                    command.Parameters.AddWithValue("@id_sala", artigo.id_sala);
+                    command.Parameters.AddWithValue("@codigo_barra", artigo.codigo_barra);
+                    command.Parameters.AddWithValue("@num_artigo", artigo.num_artigo);
+                    command.Parameters.AddWithValue("@nome_artigo", artigo.nome_artigo);
+                    command.Parameters.AddWithValue("@data_registo", artigo.data_registo);
+                    command.Parameters.AddWithValue("@data_update", artigo.data_update);
                     command.Parameters.AddWithValue("@isSynced", artigo.IsSynced);
                     command.Parameters.AddWithValue("@lastUpdated", artigo.LastUpdated);
 
@@ -102,12 +102,12 @@ namespace CibApi.Controllers
 
                     using (var command = new SqlCommand(query, connection))
                     {
-                        command.Parameters.AddWithValue("@id_sala", artigo.Id_Sala);
-                        command.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
-                        command.Parameters.AddWithValue("@num_artigo", artigo.Num_Artigo);
-                        command.Parameters.AddWithValue("@nome_artigo", artigo.Nome_Artigo);
-                        command.Parameters.AddWithValue("@data_registo", artigo.Data_Registo);
-                        command.Parameters.AddWithValue("@data_update", artigo.Data_Update);
+                        command.Parameters.AddWithValue("@id_sala", artigo.id_sala);
+                        command.Parameters.AddWithValue("@codigo_barra", artigo.codigo_barra);
+                        command.Parameters.AddWithValue("@num_artigo", artigo.num_artigo);
+                        command.Parameters.AddWithValue("@nome_artigo", artigo.nome_artigo);
+                        command.Parameters.AddWithValue("@data_registo", artigo.data_registo);
+                        command.Parameters.AddWithValue("@data_update", artigo.data_update);
                         command.Parameters.AddWithValue("@isSynced", artigo.IsSynced);
                         command.Parameters.AddWithValue("@lastUpdated", artigo.LastUpdated);
 
@@ -121,8 +121,9 @@ namespace CibApi.Controllers
 
         // ✅ POST: api/artigo/sync
         [HttpPost("sync")]
-        public IActionResult Sync([FromBody] List<Artigo> artigos)
+        public IActionResult Sync([FromBody] ArtigoSyncRequest request)
         {
+            var artigos = request.artigos;
             try { 
                 if (artigos == null || artigos.Count == 0)
                     return BadRequest(new { message = "Nenhum artigo recebido para sincronização" });
@@ -140,7 +141,7 @@ namespace CibApi.Controllers
 
                         using (var checkCmd = new SqlCommand(checkQuery, connection))
                         {
-                            checkCmd.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
+                            checkCmd.Parameters.AddWithValue("@codigo_barra", artigo.codigo_barra);
 
                             int existe = (int)checkCmd.ExecuteScalar();
 
@@ -159,13 +160,13 @@ namespace CibApi.Controllers
 
                                 using (var updateCmd = new SqlCommand(updateQuery, connection))
                                 {
-                                    updateCmd.Parameters.AddWithValue("@id_sala", artigo.Id_Sala);
-                                    updateCmd.Parameters.AddWithValue("@num_artigo", artigo.Num_Artigo);
-                                    updateCmd.Parameters.AddWithValue("@nome_artigo", artigo.Nome_Artigo);
-                                    updateCmd.Parameters.AddWithValue("@data_registo", artigo.Data_Registo);
-                                    updateCmd.Parameters.AddWithValue("@data_update", artigo.Data_Update);
+                                    updateCmd.Parameters.AddWithValue("@id_sala", artigo.id_sala);
+                                    updateCmd.Parameters.AddWithValue("@num_artigo", artigo.num_artigo);
+                                    updateCmd.Parameters.AddWithValue("@nome_artigo", artigo.nome_artigo);
+                                    updateCmd.Parameters.AddWithValue("@data_registo", artigo.data_registo);
+                                    updateCmd.Parameters.AddWithValue("@data_update", artigo.data_update);
                                     updateCmd.Parameters.AddWithValue("@lastUpdated", DateTime.Now);
-                                    updateCmd.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
+                                    updateCmd.Parameters.AddWithValue("@codigo_barra", artigo.codigo_barra);
 
                                     updateCmd.ExecuteNonQuery();
                                     atualizados++;
@@ -175,17 +176,18 @@ namespace CibApi.Controllers
                             {
                                 // 🔹 Inserir
                                 var insertQuery = @"INSERT INTO Artigo
-                                                    (id_sala, codigo_barra, num_artigo, nome_artigo, data_registo, data_update, isSynced, lastUpdated)
-                                                    VALUES (@id_sala, @codigo_barra, @num_artigo, @nome_artigo, @data_registo, @data_update, 1, @lastUpdated)";
+                                                    (id_artigo, id_sala, codigo_barra, num_artigo, nome_artigo, data_registo, data_update, isSynced, lastUpdated)
+                                                    VALUES (@id_artigo, @id_sala, @codigo_barra, @num_artigo, @nome_artigo, @data_registo, @data_update, 1, @lastUpdated)";
 
                                 using (var insertCmd = new SqlCommand(insertQuery, connection))
                                 {
-                                    insertCmd.Parameters.AddWithValue("@id_sala", artigo.Id_Sala);
-                                    insertCmd.Parameters.AddWithValue("@codigo_barra", artigo.Codigo_Barra);
-                                    insertCmd.Parameters.AddWithValue("@num_artigo", artigo.Num_Artigo);
-                                    insertCmd.Parameters.AddWithValue("@nome_artigo", artigo.Nome_Artigo);
-                                    insertCmd.Parameters.AddWithValue("@data_registo", artigo.Data_Registo);
-                                    insertCmd.Parameters.AddWithValue("@data_update", artigo.Data_Update);
+                                    insertCmd.Parameters.AddWithValue("@id_artigo", artigo.id_artigo);
+                                    insertCmd.Parameters.AddWithValue("@id_sala", artigo.id_sala);
+                                    insertCmd.Parameters.AddWithValue("@codigo_barra", artigo.codigo_barra);
+                                    insertCmd.Parameters.AddWithValue("@num_artigo", artigo.num_artigo);
+                                    insertCmd.Parameters.AddWithValue("@nome_artigo", artigo.nome_artigo);
+                                    insertCmd.Parameters.AddWithValue("@data_registo", artigo.data_registo);
+                                    insertCmd.Parameters.AddWithValue("@data_update", artigo.data_update);
                                     insertCmd.Parameters.AddWithValue("@lastUpdated", DateTime.Now);
 
                                     insertCmd.ExecuteNonQuery();

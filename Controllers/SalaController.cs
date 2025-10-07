@@ -35,9 +35,9 @@ namespace CibApi.Controllers
                         {
                             salas.Add(new Sala
                             {
-                                Id_Sala = reader.GetInt32(reader.GetOrdinal("id_sala")),
-                                Codigo_Barra = reader.GetString(reader.GetOrdinal("codigo_barra")),
-                                Num_Sala = reader.GetString(reader.GetOrdinal("num_sala")),
+                               id_sala = reader.GetGuid(reader.GetOrdinal("id_sala")),
+                                codigo_barra = reader.GetString(reader.GetOrdinal("codigo_barra")),
+                                num_sala = reader.GetString(reader.GetOrdinal("num_sala")),
                                 IsSynced = reader.GetBoolean(reader.GetOrdinal("isSynced")),
                                 LastUpdated = reader.GetDateTime(reader.GetOrdinal("lastUpdated"))
                             });
@@ -63,8 +63,8 @@ namespace CibApi.Controllers
 
                 using (var command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@codigo_barra", sala.Codigo_Barra);
-                    command.Parameters.AddWithValue("@num_sala", sala.Num_Sala);
+                    command.Parameters.AddWithValue("@codigo_barra", sala.codigo_barra);
+                    command.Parameters.AddWithValue("@num_sala", sala.num_sala);
                     command.Parameters.AddWithValue("@isSynced", sala.IsSynced);
                     command.Parameters.AddWithValue("@lastUpdated", sala.LastUpdated);
 
@@ -92,8 +92,8 @@ namespace CibApi.Controllers
 
                     using (var command = new SqlCommand(query, connection))
                     {
-                        command.Parameters.AddWithValue("@codigo_barra", sala.Codigo_Barra);
-                        command.Parameters.AddWithValue("@num_sala", sala.Num_Sala);
+                        command.Parameters.AddWithValue("@codigo_barra", sala.codigo_barra);
+                        command.Parameters.AddWithValue("@num_sala", sala.num_sala);
                         command.Parameters.AddWithValue("@isSynced", sala.IsSynced);
                         command.Parameters.AddWithValue("@lastUpdated", sala.LastUpdated);
 
@@ -107,8 +107,9 @@ namespace CibApi.Controllers
 
         // ✅ POST: api/sala/sync
         [HttpPost("sync")]
-        public IActionResult Sync([FromBody] List<Sala> salas)
+        public IActionResult Sync([FromBody] SalaSyncRequest request)
         {
+            var salas = request.salas;
             if (salas == null || salas.Count == 0)
                 return BadRequest(new { message = "Nenhuma sala recebida para sincronização" });
 
@@ -125,7 +126,7 @@ namespace CibApi.Controllers
 
                     using (var checkCmd = new SqlCommand(checkQuery, connection))
                     {
-                        checkCmd.Parameters.AddWithValue("@codigo_barra", sala.Codigo_Barra);
+                        checkCmd.Parameters.AddWithValue("@codigo_barra", sala.codigo_barra);
 
                         int existe = (int)checkCmd.ExecuteScalar();
 
@@ -140,9 +141,9 @@ namespace CibApi.Controllers
 
                             using (var updateCmd = new SqlCommand(updateQuery, connection))
                             {
-                                updateCmd.Parameters.AddWithValue("@num_sala", sala.Num_Sala);
+                                updateCmd.Parameters.AddWithValue("@num_sala", sala.num_sala);
                                 updateCmd.Parameters.AddWithValue("@lastUpdated", DateTime.Now);
-                                updateCmd.Parameters.AddWithValue("@codigo_barra", sala.Codigo_Barra);
+                                updateCmd.Parameters.AddWithValue("@codigo_barra", sala.codigo_barra);
 
                                 updateCmd.ExecuteNonQuery();
                                 atualizados++;
@@ -152,13 +153,14 @@ namespace CibApi.Controllers
                         {
                             // 🔹 Inserir
                             var insertQuery = @"INSERT INTO Sala 
-                                        (codigo_barra, num_sala, isSynced, lastUpdated) 
-                                        VALUES (@codigo_barra, @num_sala, 1, @lastUpdated)";
+                                        (id_sala, codigo_barra, num_sala, isSynced, lastUpdated) 
+                                        VALUES (@id_sala, @codigo_barra, @num_sala, 1, @lastUpdated)";
 
                             using (var insertCmd = new SqlCommand(insertQuery, connection))
                             {
-                                insertCmd.Parameters.AddWithValue("@codigo_barra", sala.Codigo_Barra);
-                                insertCmd.Parameters.AddWithValue("@num_sala", sala.Num_Sala);
+                                insertCmd.Parameters.AddWithValue("@id_sala", sala.id_sala);
+                                insertCmd.Parameters.AddWithValue("@codigo_barra", sala.codigo_barra);
+                                insertCmd.Parameters.AddWithValue("@num_sala", sala.num_sala);
                                 insertCmd.Parameters.AddWithValue("@lastUpdated", DateTime.Now);
 
                                 insertCmd.ExecuteNonQuery();

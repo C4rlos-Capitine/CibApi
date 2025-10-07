@@ -2,14 +2,14 @@
 {
     public class Artigo
     {
-        public int Id_Artigo { get; set; }
-        public int Id_Sala { get; set; }
-        public string Codigo_Barra { get; set; } = string.Empty;
-        public string Num_Artigo { get; set; } = string.Empty;
-        public string Nome_Artigo { get; set; } = string.Empty;
-        public DateTime Data_Registo { get; set; }
-        public DateTime Data_Update { get; set; }
-        public bool IsSynced { get; set; } = false;
+        public Guid id_artigo { get; set; }
+        public Guid id_sala { get; set; }
+        public string codigo_barra { get; set; } = string.Empty;
+        public string num_artigo { get; set; } = string.Empty;
+        public string nome_artigo { get; set; } = string.Empty;
+        public DateTime data_registo { get; set; }
+        public DateTime data_update { get; set; }
+        public int IsSynced { get; set; }
         public DateTime LastUpdated { get; set; }
     }
 
