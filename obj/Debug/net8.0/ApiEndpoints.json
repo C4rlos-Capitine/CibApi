@@ -238,6 +238,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CibApi.Controllers.SyncAllController",
+    "Method": "SyncAll",
+    "RelativePath": "api/SyncAll/sync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "CibApi.Controllers.SyncAllController\u002BSyncAllRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CibApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

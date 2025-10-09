@@ -1,0 +1,248 @@
+2025-10-08 08:39:59.810 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 08:39:59.929 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 08:40:00.077 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 08:40:00.077 +02:00 [INF] Hosting environment: Development
+2025-10-08 08:40:00.077 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 08:40:02.149 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 08:40:07.809 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 6075.3976ms
+2025-10-08 08:40:07.840 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 08:40:07.841 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 08:40:07.857 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 17.7713ms
+2025-10-08 08:40:08.203 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 373.0756ms
+2025-10-08 08:40:08.335 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 08:40:08.428 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.7518ms
+2025-10-08 08:48:59.283 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 08:48:59.617 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 08:49:01.072 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 08:49:01.073 +02:00 [INF] Hosting environment: Development
+2025-10-08 08:49:01.073 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 08:49:03.025 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 08:49:03.970 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 08:49:03.994 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 998.6626ms
+2025-10-08 08:49:03.995 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 20.936ms
+2025-10-08 08:49:04.016 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 08:49:04.308 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 291.5879ms
+2025-10-08 08:49:04.459 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 08:49:04.520 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.014ms
+2025-10-08 08:54:29.824 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 08:54:29.947 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 08:54:30.253 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 08:54:30.253 +02:00 [INF] Hosting environment: Development
+2025-10-08 08:54:30.253 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 08:54:30.688 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 08:54:31.400 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 740.0506ms
+2025-10-08 08:54:31.435 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 08:54:31.442 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 8.9051ms
+2025-10-08 08:54:31.493 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 08:54:31.616 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.9735ms
+2025-10-08 08:54:31.861 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 08:54:31.912 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.92ms
+2025-10-08 08:58:13.707 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll - application/json; charset=utf-8 1083
+2025-10-08 08:58:13.824 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 08:58:13.847 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll - 404 0 null 154.699ms
+2025-10-08 08:58:13.856 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://192.168.10.125:5021/api/SyncAll, Response status code: 404
+2025-10-08 09:00:13.594 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1083
+2025-10-08 09:00:14.031 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:00:14.362 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:00:37.594 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1083
+2025-10-08 09:00:37.605 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:00:37.606 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:00:50.542 +02:00 [ERR] Erro na sincronização geral
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at CibApi.Controllers.SyncAllController.SyncAll(SyncAllRequest data) in C:\Users\User\source\repos\CibApi\Controllers\SyncAllController.cs:line 40
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-10-08 09:00:50.542 +02:00 [ERR] Erro na sincronização geral
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at CibApi.Controllers.SyncAllController.SyncAll(SyncAllRequest data) in C:\Users\User\source\repos\CibApi\Controllers\SyncAllController.cs:line 40
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2025-10-08 09:00:50.687 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:00:50.687 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:00:50.721 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 36345.4317ms
+2025-10-08 09:00:50.721 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 13103.2116ms
+2025-10-08 09:00:50.723 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:00:50.723 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:00:50.726 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 500 null application/json; charset=utf-8 13131.2972ms
+2025-10-08 09:00:50.726 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 500 null application/json; charset=utf-8 37138.6385ms
+2025-10-08 09:01:34.509 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 09:01:34.606 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 09:01:35.651 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 09:01:35.676 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 09:01:35.693 +02:00 [INF] Hosting environment: Development
+2025-10-08 09:01:35.693 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 09:01:37.714 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 2051.7516ms
+2025-10-08 09:01:38.661 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 09:01:38.728 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 67.8422ms
+2025-10-08 09:01:38.919 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 09:01:39.134 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 215.036ms
+2025-10-08 09:01:39.252 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 09:01:39.376 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 123.5165ms
+2025-10-08 09:04:34.481 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1083
+2025-10-08 09:04:34.588 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 09:04:34.610 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:04:34.738 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:04:37.844 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:04:37.859 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 3117.6718ms
+2025-10-08 09:04:37.860 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:04:37.861 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 3391.051ms
+2025-10-08 09:08:05.454 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 09:08:05.546 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 09:08:06.024 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 09:08:06.025 +02:00 [INF] Hosting environment: Development
+2025-10-08 09:08:06.025 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 09:08:06.362 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 09:08:06.897 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 549.7916ms
+2025-10-08 09:08:06.908 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 09:08:06.911 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 09:08:06.918 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 10.4896ms
+2025-10-08 09:08:07.088 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 176.7529ms
+2025-10-08 09:08:07.186 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 09:08:07.229 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.2193ms
+2025-10-08 09:09:26.564 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1083
+2025-10-08 09:09:26.602 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 09:09:26.615 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:09:26.669 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:10:22.500 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:10:22.520 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 55847.1731ms
+2025-10-08 09:10:22.522 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:10:22.524 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 55960.1531ms
+2025-10-08 09:12:24.262 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 09:12:24.395 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 09:12:24.781 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 09:12:24.781 +02:00 [INF] Hosting environment: Development
+2025-10-08 09:12:24.781 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 09:12:25.154 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 09:12:26.767 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 1637.8216ms
+2025-10-08 09:12:26.780 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 09:12:26.787 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 8.2475ms
+2025-10-08 09:12:26.803 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 09:12:26.932 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 129.1737ms
+2025-10-08 09:12:27.095 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 09:12:27.164 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.7677ms
+2025-10-08 09:13:41.182 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1083
+2025-10-08 09:13:41.258 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 09:13:41.277 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:13:41.393 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:14:09.535 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:14:09.556 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 28160.4725ms
+2025-10-08 09:14:09.559 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:14:09.562 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 28386.0725ms
+2025-10-08 09:17:29.979 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 09:17:30.102 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 09:17:30.256 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 09:17:30.256 +02:00 [INF] Hosting environment: Development
+2025-10-08 09:17:30.256 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 09:17:31.014 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 09:17:31.539 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 535.296ms
+2025-10-08 09:17:31.552 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 09:17:31.552 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 09:17:31.559 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 9.2106ms
+2025-10-08 09:17:31.634 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.3039ms
+2025-10-08 09:17:31.773 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 09:17:31.846 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.1019ms
+2025-10-08 09:17:34.979 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1619
+2025-10-08 09:17:35.014 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 09:17:35.173 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:17:36.083 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:17:50.619 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:17:50.626 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 14456.1646ms
+2025-10-08 09:17:50.626 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:17:50.626 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 15646.9762ms
+2025-10-08 09:17:53.779 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1619
+2025-10-08 09:17:53.781 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:17:53.781 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:18:03.092 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:18:03.093 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 9310.9608ms
+2025-10-08 09:18:03.093 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:18:03.093 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 9313.3213ms
+2025-10-08 09:20:21.567 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 09:20:21.726 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 09:20:22.222 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 09:20:22.223 +02:00 [INF] Hosting environment: Development
+2025-10-08 09:20:22.223 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 09:20:23.238 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 09:20:24.028 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 812.5336ms
+2025-10-08 09:20:24.075 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 09:20:24.079 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 09:20:24.079 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 4.584ms
+2025-10-08 09:20:24.154 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.0228ms
+2025-10-08 09:20:24.310 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 09:20:24.401 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.9818ms
+2025-10-08 09:21:45.803 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1619
+2025-10-08 09:21:45.849 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 09:21:45.868 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:21:45.962 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:21:58.119 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:21:58.136 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 12169.366ms
+2025-10-08 09:21:58.137 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:21:58.139 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 12339.6147ms
+2025-10-08 09:24:21.439 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 09:24:21.557 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 09:24:24.146 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 09:24:24.146 +02:00 [INF] Hosting environment: Development
+2025-10-08 09:24:24.146 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 09:24:24.858 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 09:24:25.660 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 824.2286ms
+2025-10-08 09:24:25.695 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 09:24:25.704 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 11.2912ms
+2025-10-08 09:24:25.710 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 09:24:25.885 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 175.9027ms
+2025-10-08 09:24:26.038 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 09:24:26.133 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.9923ms
+2025-10-08 09:25:41.296 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1621
+2025-10-08 09:25:41.357 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 09:25:41.371 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:25:41.454 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:25:48.208 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:25:48.225 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 6767.2237ms
+2025-10-08 09:25:48.226 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:25:48.227 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 6936.5323ms
+2025-10-08 09:30:42.104 +02:00 [WRN] Overriding address(es) 'http://0.0.0.0:5021'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-10-08 09:30:42.232 +02:00 [INF] Now listening on: http://[::]:5021
+2025-10-08 09:30:42.473 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-08 09:30:42.473 +02:00 [INF] Hosting environment: Development
+2025-10-08 09:30:42.473 +02:00 [INF] Content root path: C:\Users\User\source\repos\CibApi
+2025-10-08 09:30:43.312 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/index.html - null null
+2025-10-08 09:30:44.246 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/index.html - 200 null text/html;charset=utf-8 942.0103ms
+2025-10-08 09:30:44.296 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-08 09:30:44.305 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 10.9689ms
+2025-10-08 09:30:44.324 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/_vs/browserLink - null null
+2025-10-08 09:30:46.177 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1853.4323ms
+2025-10-08 09:30:48.511 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - null null
+2025-10-08 09:30:48.679 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5021/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 167.9622ms
+2025-10-08 09:32:08.547 +02:00 [INF] Request starting HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - application/json; charset=utf-8 1621
+2025-10-08 09:32:08.602 +02:00 [WRN] Failed to determine the https port for redirect.
+2025-10-08 09:32:08.616 +02:00 [INF] Executing endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:32:08.720 +02:00 [INF] Route matched with {action = "SyncAll", controller = "SyncAll"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SyncAll(SyncAllRequest) on controller CibApi.Controllers.SyncAllController (CibApi).
+2025-10-08 09:32:15.182 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`5[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-08 09:32:15.199 +02:00 [INF] Executed action CibApi.Controllers.SyncAllController.SyncAll (CibApi) in 6475.8752ms
+2025-10-08 09:32:15.200 +02:00 [INF] Executed endpoint 'CibApi.Controllers.SyncAllController.SyncAll (CibApi)'
+2025-10-08 09:32:15.201 +02:00 [INF] Request finished HTTP/1.1 POST http://192.168.10.125:5021/api/SyncAll/sync - 200 null application/json; charset=utf-8 6660.724ms

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CibApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f73b11bd43df1dba7183cef923504427e2703476")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e100a0451cb25f9aef6744c3df17092db6827ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("CibApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CibApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

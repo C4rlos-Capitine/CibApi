@@ -475,6 +475,37 @@
         }
       }
     },
+    "/api/SyncAll/sync": {
+      "post": {
+        "tags": [
+          "SyncAll"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SyncAllRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SyncAllRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SyncAllRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -679,6 +710,40 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Sala"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SyncAllRequest": {
+        "type": "object",
+        "properties": {
+          "salas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sala"
+            },
+            "nullable": true
+          },
+          "artigos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Artigo"
+            },
+            "nullable": true
+          },
+          "inventarios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Inventario"
+            },
+            "nullable": true
+          },
+          "inventarioArtigos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InventarioArtigo"
             },
             "nullable": true
           }
